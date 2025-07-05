@@ -7,8 +7,8 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 
 ![Data Architecture](https://github.com/user-attachments/assets/2b952fea-3dfb-4ade-8c93-71969ac45acd)
 
-1. **Bronze Layer**: Stores raw data from the source systems. Data is ingested from CSV Files into SQL Server.
-2. **Silver Layer**: Includes data transformation (cleansing, standardization, mathematical operations or string manipulations to existing columns).
+1. **Bronze Layer**: Stores raw data from the source systems. Data is ingested from CSV Files into SQL Server using python ETL fuctions.
+2. **Silver Layer**: Includes data transformation (cleansing, standardization, mathematical operations or string manipulations to existing columns) using SQL.
 3. **Gold Layer**: Includes business-ready data modeled into a star schema ready for reporting and analytics.
 
 ## 📖 Project Overview
